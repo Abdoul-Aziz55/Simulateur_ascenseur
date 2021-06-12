@@ -1,5 +1,5 @@
-all:main
 FLAGS = -Wall -Werror -g
+all:main
 
 main.o: main.c person.h elevator.h
 	gcc ${FLAGS} -c main.c

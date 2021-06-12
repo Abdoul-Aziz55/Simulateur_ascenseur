@@ -12,10 +12,6 @@ Person* createPerson(int src, int dest)
 	return res;
 }
 
-/*PersonList* createList()
-{
-	return NULL;
-}*/
 
 PersonList* insert(Person *p, PersonList *list)
 {
